@@ -5,7 +5,6 @@ projects[] = context
 projects[] = features
 projects[] = filefield
 projects[] = install_profile_api
-projects[] = support
 projects[] = views
 projects[fserver][location] = "http://code.developmentseed.org/fserver"
 projects[singular][location] = "http://code.developmentseed.org/fserver"
