@@ -24,7 +24,7 @@ function feature_server_profile_modules() {
     /* optional core */
     'menu', 'comment', 'color', 'dblog', 'help', 'taxonomy',
     /* other contrib */ 
-    'install_profile_api', 'content', 'filefield', 'optionwidgets', 'text', 'nodereference', 'views', 'features', 'context', 'fserver',
+    'install_profile_api', 'content', 'number', 'filefield', 'optionwidgets', 'text', 'nodereference', 'views', 'features', 'context', 'fserver',
   );
 }
 
