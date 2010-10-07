@@ -3,6 +3,8 @@
 ; Developed by Miguel Jacq - http://mig5.net
 ; Contributions from Dave Hall - http://davehall.com.au
 
+api = 2
+
 core = 6.x
 
 projects[cck] = 2.8
