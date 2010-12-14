@@ -1,21 +1,22 @@
 ; Feature Server for Drupal 6 make
-;
-; Developed by Miguel Jacq - http://mig5.net
-; Contributions from Dave Hall - http://davehall.com.au
 
 api = 2
-
 core = 6.x
 
-projects[cck] = 2.8
-projects[context] = 3.0
-projects[ctools] = 1.7
-projects[features] = 1.0
-projects[filefield] = 3.7
-projects[install_profile_api] = 2.1
-projects[views] = 2.11
+projects[] = "drupal"
+
+projects[cck][subdir] = "contrib"
+projects[context][subdir] = "contrib"
+projects[features][subdir] = "contrib"
+projects[filefield][subdir] = "contrib"
+projects[views][subdir] = "contrib"
+projects[strongarm][subdir] = "contrib"
+projects[ctools][subdir] = "contrib"
+projects[install_profile_api][subdir] = "contrib"
 
 projects[fserver][location] = "http://code.developmentseed.org/fserver"
+projects[fserver][subdir] = "contrib"
+
 projects[singular][location] = "http://code.developmentseed.org/fserver"
 projects[tao][location] = "http://code.developmentseed.org/fserver"
 
